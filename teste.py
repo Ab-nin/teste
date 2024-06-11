@@ -6,5 +6,5 @@ st.title('Teste')
 st.write("teste")
 
 with st.container():
-    dados = pd.read_csv('dados_CN.csv')
+    dados = pd.read_csv('dados_biodiesel_OS.csv')
     st.write(dados.head())
